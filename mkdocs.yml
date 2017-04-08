@@ -1,0 +1,27 @@
+site_name: DomainMOD User Guide
+site_description: View the DomainMOD User Guide online
+site_author: Greg Chetcuti
+theme: null
+theme_dir: theme
+use_directory_urls: true
+strict: true
+repo_url: https://github.com/domainmod/userguide/
+pages:
+- Home: 'index.md'
+- Getting Started: 'getting-started.md'
+- First Run: 'first-run.md'
+- Upgrading: 'upgrading.md'
+- Creating Assets: 'creating-assets.md'
+- Adding Domains: 'adding-domains.md'
+- Domain Queue: 'domain-queue.md'
+- Bulk Updater: 'bulk-updater.md'
+#- Segments: 'segments.md'
+#- Reporting: 'reporting.md'
+#- User Settings: 'user-settings.md'
+#- Maintenance: 'maintenance.md'
+- Administration: 'administration.md'
+- Data Warehouse: 'data-warehouse.md'
+- Frequently Asked Questions: 'faq.md'
+- Troubleshooting: 'troubleshooting.md'
+- Contribute: 'contribute.md'
+- Support: 'support.md'
