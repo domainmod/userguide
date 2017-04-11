@@ -56,20 +56,3 @@ In case there's a problem with the cron job you can also try triggering the queu
 If that doesn't work you can try clearing the queue items that are currently processing by going to Administration -> Maintenance, and then clicking on "Clear Queue Processing". Now try the last suggestion again to see if running the queue manually through the Task Scheduler helps.
 
 If that still doesn't do it go to Administration -> Maintenance, and then click on "Clear Queues". This will completely clear out the queue. Now try retrieving your data again using the Domain Queue.
-
-
-<h4>When I login I'm given a message that an upgrade is available, but after upgrading, logging out, and logging back in, I'm still told that there's an upgrade available.</h4>
-
-DomainMOD appears to be having an issue setting session variables, which is usually caused by PHP not being setup properly for session handling. You can confirm this by going to Administration -> System Information. On the information page you *should* see something like:
-
-DomainMOD: 4.03.000 (4.03.000)
-
-But if instead you see:
-
-DomainMOD: 4.03.000 ()
-
-It means that there's an issue with PHP session variables.
-
-The first number is the software version that's recorded in the software code itself, and the second number is the software version that's being retrieved from the database during login, which gets assigned to a session variable. In this case the session variable is empty so it's just showing () instead of the version number. This is generally caused by sessions being misconfigured in the server's php.ini file
-
-There are a lot of things in the configuration that could be causing this, and unfortunately this goes beyond the scope of what we can troubleshoot. Our suggestion would be to contact your web host and let them know that you're having an issue with session variables not working properly in PHP and that it's most likely an issue with php.ini.
