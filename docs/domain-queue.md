@@ -8,7 +8,7 @@ Supported Registrars
 ----------------------
 The following registrars are currently supported by the Domain Queue:
 
-DNSimple, Dynadot, eNom, Fabulous, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
+DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
 
 Usage
 -------
