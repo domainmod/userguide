@@ -29,7 +29,9 @@ In order to use the Data Warehouse you first need to add your web server(s).
 
 3. Click the **Add Web Server** button.
 
-4. Enter your server's details and then click the **Add Server** button.
+4. Enter your web server's details and then click the **Add Server** button.
+
+    **NOTE:** When adding your server you will be asked for either an API Token or a Remote Access Key/Hash, which can be found in your WHM. The Remote Access Key/Hash will be getting removed from WHM in version 68 though, so if your WHM already supports the API Token that's what you should use.
 
 Building The Data Warehouse
 ---------------------------
