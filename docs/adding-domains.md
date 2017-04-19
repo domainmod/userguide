@@ -8,7 +8,7 @@ The easiest option for adding domains is to use the Domain Queue, which allows y
 
 This option uses your domain registrar's API to retrieve information required to add domains, so unfortunately it only works if your registrar has an API and support for it has been built into DomainMOD. Before using this option make sure your API credentials have been saved with your registrar account.
 
-Currently Supported Registrars: DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
+Currently Supported Registrars: Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
 
 **NOTE:** In order to use the Domain Queue you must first [setup the cron job](getting-started.md#cron-job) that comes with DomainMOD.
 
