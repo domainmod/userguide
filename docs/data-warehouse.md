@@ -31,7 +31,31 @@ In order to use the Data Warehouse you first need to add your web server(s).
 
 4. Enter your web server's details and then click the **Add Server** button.
 
-    **NOTE:** When adding your server you will be asked for either an API Token or a Remote Access Key/Hash, which can be found in your WHM. The Remote Access Key/Hash will be getting removed from WHM in version 68 though, so if your WHM already supports the API Token that's what you should use.
+    **NOTE:** When adding your server you will be asked for either an API Token or a Remote Access Key/Hash, which can be found in your WHM (see below). The Remote Access Key/Hash will be getting removed from WHM in version 68 though, so if your WHM already supports the API Token that's what you should use.
+
+**Retrieving Your Remote Access Key/Hash**
+
+If your WHM server supports it, you should be using an API Token instead of the Remote Access Key/Hash. Skip to the next section to retrieve your API Token.
+
+1. Login to your WHM.
+
+2. Using the search box on the left-hand side of the screen, search for **Remote Access Key**.
+
+3. Click on **Remote Access Key** on the menu and your key will be displayed.
+
+**Retrieving Your API Token**
+
+1. Login to your WHM.
+
+2. Using the search box on the left-hand side of the screen, search for **Manage API Tokens**.
+
+3. Click on **Manage API Tokens** on the menu.
+
+4. Click the **Generate Token** button.
+
+5. Type in a name for your API Token and then click **Generate**. This name is used to help identify what that specific API Token was generated for, and you can call it anything you want.
+
+6. After you click the **Generate** button your API Token will be displayed.
 
 Building The Data Warehouse
 ---------------------------
