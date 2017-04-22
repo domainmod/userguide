@@ -8,9 +8,9 @@ For this example we're going to use the Bulk Updater to add domains, however it 
 
 1. Click on **Bulk Updater** on the main menu.
 
-2. On the dropdown menu on the Bulk Updater page, choose "Add Domains".
+2. On the dropdown menu on the Bulk Updater page, choose **Add Domains**.
 
-3. In the "Domains to add" text area, paste in a list of domains that you want to add, one domain per line.
+3. In the **Domains to add** text area, paste in a list of domains that you want to add, one domain per line.
 
 4. Fill in all of the relevant details for the domain, such as the expiry date, registrar account, DNS profile, and so on. 
 

@@ -4,7 +4,7 @@ If you haven't installed DomainMOD yet, please see the [Getting Started](getting
 
 Login
 -----
-The first thing you need to do is login to your new DomainMOD installation. The default username and password are "admin", and after you login for the first time you'll be prompted to change your password, which you should do immediately.
+The first thing you need to do is login to your new DomainMOD installation. The default username and password are **admin**, and after you login for the first time you'll be prompted to change your password, which you should do immediately.
 
 The admin account that gets created during installation has full control of your DomainMOD installation, so you should store the password in a safe place.
 
@@ -16,7 +16,7 @@ Since every domain must have an owner and belong to a domain registrar and domai
 
 Add An Owner
 ---------------
-Although recommended, adding an owner at this stage is optional. If you don't add one now you can use the default owner "[no owner]" for the remaining steps on this page, and you can then go back later and edit the default owner.
+Although recommended, adding an owner at this stage is optional. If you don't add one now you can use the default owner, "[no owner]" for the remaining steps on this page, and you can then go back later and edit the default owner.
 
 The owner should be whoever owns the registrar account that you're going to add, whether it's an individual's name or a company name. 
 

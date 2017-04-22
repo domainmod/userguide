@@ -37,7 +37,7 @@ If all you want to do is track the amount you sold a domain for, you can create 
 
 <h4>How many domains can I manage with DomainMOD?</h4>
 
-Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable "large mode" to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advances features as the default settings, it allows you to manage a lot more domains.
+Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable **large mode** to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advances features as the default settings, it allows you to manage a lot more domains.
 
 
 <h4>I don't need to keep track of the fees associated with my domains. Can I disable this feature?</h4>
