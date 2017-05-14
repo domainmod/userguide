@@ -15,6 +15,33 @@ To disable strict mode you need to remove STRICT\_TRANS\_TABLES from this line (
 Once disabled you will need to restart MySQL, and then DomainMOD should install properly.
 
 
+<BR>Upgrading
+-----------
+<h4>There was a problem while upgrading and now I can't access DomainMOD.</h4>
+
+Although we personally haven't see this happen yet, it's definitely possible. This is why we recommend you make a backup of your entire DomainMOD database before upgrading (you did make that backup, right?).
+
+Follow these steps to restore your copy of DomainMOD:
+
+1. Restore your DomainMOD database backup to the same location as your previous DomainMOD database.
+
+2. Instead of logging into DomainMOD to upgrade your database, run the below script from the command line.
+
+    \[FULL SERVER PATH TO DOMAINMOD\]/update.php
+    
+    The full command will look something like this, depending on the location of PHP and DomainMOD on your server:
+    
+    /usr/bin/php -f /home/user/www/domainmod/update.php
+
+3. If you receive a notice that your upgrade was **successful**, switch back to your web browser and try to login to DomainMOD. If you're able to login successfully you can ignore the rest of these steps.
+
+4. If you receive a notice that your upgrade was **unsuccessful**, keep a record of any error messages that are displayed and proceed to the next step.
+
+4. Restore your DomainMOD database backup again, then [download the previous version that you were using](https://github.com/domainmod/domainmod/releases) and go through the standard installation steps, pointing it at your newly-restored database in the config.inc.php file. This should get you back to where you were before you tried upgrading.
+
+5. Contact us with any error messages that were displayed and we'll try to help figure out what went wrong with your upgrade.
+
+
 <BR>Usage
 -------------
 <h4>DomainMOD seems to be working properly, but when I use the software I get a bunch of warning messages, such as "undefined index" and "undefined variable".</h4>
