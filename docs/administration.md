@@ -4,6 +4,8 @@ Custom Domain Fields help extend the functionality of DomainMOD by allowing the 
 
 When you export your domain data, the information contained in your custom fields will automatically be included in the exported data.
 
+**Custom Field Types:** Check Box, Date, Text Field, Text Area, Time Stamp
+
 Task Scheduler
 --------------
 This information is coming soon...
