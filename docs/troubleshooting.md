@@ -14,6 +14,18 @@ To disable strict mode you need to remove STRICT\_TRANS\_TABLES from this line (
 
 Once disabled you will need to restart MySQL, and then DomainMOD should install properly.
 
+<h4>The images and CSS are broken or you're receiving an error that there are too many redirects.</h4>
+
+This is generally caused by an invalid web root in your config.inc.php file. Please double check your config.inc.php file and confirm that the $web_root variable reflects the directory where you installed DomainMOD.
+
+For example, if you access DomainMOD via the URL http://example.com/domains/ the $web_root variable should be:
+
+    $web_root = "/domains"; (don't include a trailing slash!)
+
+And if you've installed DomainMOD in the root folder of a domain or subdomain, the $web_root variable in your config.inc.php file should be blank, like so:
+
+    $web_root = "";
+
 
 <BR>Upgrading
 -----------
