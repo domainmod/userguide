@@ -8,7 +8,7 @@ Add An Owner
 
 2. Click on **Account Owners** on the Assets list.
 
-3. Click on the **Add Owner** button.
+3. Click the **Add Owner** button.
 
 4. Enter the Owner's Name. 
 
@@ -20,7 +20,7 @@ Add a Domain Registrar
 
 2. Click on **Domain Registrars** on the Assets list.
 
-3. Click on the **Add Registrar** button.
+3. Click the **Add Registrar** button.
 
 4. Enter the Registrar's Name and then click the **Add Domain Registrar** button.
 
@@ -34,7 +34,7 @@ Add a Domain Registrar Account
 
 2. Click on **Domain Registrar Accounts** on the Assets list.
 
-3. Click on the **Add Registrar Account** button.
+3. Click the **Add Registrar Account** button.
 
 4. Choose the Domain Registrar and Account Owner that this registrar account belongs to, enter your account Username, and then click the **Add Registrar Account** button.
 
@@ -44,7 +44,7 @@ Add an SSL Provider
 
 2. Click on **SSL Providers** on the Assets list.
 
-3. Click on the **Add SSL Provider** button.
+3. Click the **Add SSL Provider** button.
 
 4. Enter the SSL Provider's Name and then click the **Add SSL Provider** button.
 
@@ -56,6 +56,6 @@ Add an SSL Provider Account
 
 2. Click on **SSL Provider Accounts** on the Assets list.
 
-3. Click on the **Add SSL Account** button.
+3. Click the **Add SSL Account** button.
 
 4. Choose the SSL Provider and Account Owner that this SSL account belongs to, enter your account Username, and then click the **Add SSL Provider Account** button.

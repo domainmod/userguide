@@ -24,7 +24,7 @@ The owner should be whoever owns the registrar account that you're going to add,
 
 2. Click on **Account Owners** on the Assets list.
 
-3. Click on the **Add Owner** button.
+3. Click the **Add Owner** button.
 
 4. Enter the Owner's Name. 
 
@@ -36,7 +36,7 @@ Add A Domain Registrar
 
 2. Click on **Domain Registrars** on the Assets list.
 
-3. Click on the **Add Registrar** button.
+3. Click the **Add Registrar** button.
 
 4. Enter the Registrar's Name. (Optional) Fill in the other fields on the page.
 

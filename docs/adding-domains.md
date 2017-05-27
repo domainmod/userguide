@@ -28,7 +28,7 @@ Domains can also be added one-by-one, which allows you to choose custom settings
 
 1. Click on **Domains** on the main menu.
 
-2. Click on the **Add Domain** button on the Domains page.
+2. Click the **Add Domain** button on the Domains page.
 
 3. Enter the Domain that you want to add.
 

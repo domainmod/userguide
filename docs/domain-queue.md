@@ -14,7 +14,7 @@ Usage
 -------
 1. Click on **Domains** on the main menu.
 
-2. Click on the **Add Domains To Queue** button on the Domains page.
+2. Click the **Add Domains To Queue** button on the Domains page.
 
 3. On the dropdown list, choose the registrar account that you would like to import using the Domain Queue.
 
@@ -24,5 +24,5 @@ Usage
 
 6. You will now be taken to the Domain Queue page, where you can see the status of your domain imports. You can also access the Domain Queue by clicking on **Queue** on the main menu (this menu option is only available when you have domains being processed in the queue).
 
-7. Once all of your imports have completed you can click on the **Clear Completed** button in order to clear the queue.
+7. Once all of your imports have completed you can click the **Clear Completed** button in order to clear the queue.
  
