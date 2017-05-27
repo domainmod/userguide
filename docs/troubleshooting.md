@@ -90,8 +90,36 @@ We would recommend trying some of the suggestions for this error in Google and s
 
 <h4>I'm trying to import data using the Domain Queue, but everything is stuck on "Processing".</h4>
 
-In case there's a problem with the cron job you can also try triggering the queue manually. Go to Administration -> Task Scheduler, and then beside "Domain Queue Processing" click on the "run now" link (this may take a bit of time to run). Then go back to the queue and see if anything has changed.
+In case there's a problem with the cron job you can also try triggering the queue manually. Go to Administration -> Task Scheduler, and then beside "Domain Queue Processing" click the "run now" link (this may take a bit of time to run). Then go back to the queue and see if anything has changed.
 
 If that doesn't work you can try clearing the queue items that are currently processing by going to Administration -> Maintenance, and then clicking on "Clear Queue Processing". Now try the last suggestion again to see if running the queue manually through the Task Scheduler helps.
 
 If that still doesn't do it go to Administration -> Maintenance, and then click on "Clear Queues". This will completely clear out the queue. Now try retrieving your data again using the Domain Queue.
+
+<BR>Debugging
+-------------
+If you're still having problems you can enable Debugging Mode, which will make DomainMOD start logging your actions and errors. This can help us troubleshoot your issue.
+
+**NOTE:** No sensitive information gets stored in the logs. Passwords, API keys, and other sensitive information is replaced with asterisks, so we will never be able to view your private data.
+ 
+To enable Debugging Mode:
+
+1. Click **Administration** on the main menu, then click **System Settings**.
+
+2. Change the **Debugging Mode** option to **Enabled**.
+
+3. Click the **Update System Settings** button.
+
+Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered a problem. Once you've done this follow the steps below to report your issue.
+
+1. Visit the DomainMOD support forum and post about your issue: [https://domainmod.org/forum/](https://domainmod.org/forum/)
+
+2. In DomainMOD, click on **Administration** and then **Debug Log**.
+
+3. Click the **Export** button to export the debugging log.
+
+4. Send an email to [debugging@domainmod.org](debugging@domainmod.org), attaching the log file that you just exported, and including a link to your forum post.
+
+We will review your debugging log and get back to you as soon as we can!
+
+Also, if you haven't already, make sure you disable Debugging mode.
