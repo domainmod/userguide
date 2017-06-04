@@ -112,14 +112,14 @@ To enable Debugging Mode:
 
 Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered a problem. Once you've done this follow the steps below to report your issue.
 
-1. Visit the DomainMOD support forum and post about your issue: [https://domainmod.org/forum/](https://domainmod.org/forum/)
+1. If you haven't already, visit the DomainMOD support forum and post about your issue: [https://domainmod.org/forum/](https://domainmod.org/forum/)
 
 2. In DomainMOD, click on **Administration** and then **Debug Log**.
 
 3. Click the **Export** button to export the debugging log.
 
-4. Send an email to [debugging@domainmod.org](debugging@domainmod.org), attaching the log file that you just exported, and including a link to your forum post.
+4. Send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log file that you just exported, and also include a link to your forum post.
 
 We will review your debugging log and get back to you as soon as we can!
 
-Also, if you haven't already, make sure you disable Debugging mode.
+Also, if you haven't already, make sure you disable Debugging Mode.
