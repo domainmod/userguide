@@ -1,16 +1,11 @@
 DomainMOD gives you a few options for adding your domains, so you should read through the below sections to determine which will work best for you.
 
-**NOTE:** Before adding your domains to DomainMOD you must first create some Assets. If you've just finished installing you should visit the [First Run](first-run.md) section, which will walk you through creating the assets that are required to start using DomainMOD.
+!!! note
+    Before adding your domains to DomainMOD you must first create some Assets. If you've just finished installing you should visit the [First Run](first-run.md) section, which will walk you through creating the assets that are required to start using DomainMOD.
 
 Domain Queue
 ---------------
-The easiest option for adding domains is to use the Domain Queue, which allows you to supply a list of domains and let DomainMOD take care of the rest (and in some cases you don't even need to supply the list of domains, it will be automatically retrieved from your registrar account).
-
-This option uses your domain registrar's API to retrieve information required to add domains, so unfortunately it only works if your registrar has an API and support for it has been built into DomainMOD. Before using this option make sure your API credentials have been saved with your registrar account.
-
-Currently Supported Registrars: Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
-
-**NOTE:** In order to use the Domain Queue you must first [setup the cron job](getting-started.md#cron-job) that comes with DomainMOD.
+{!domain-queue-shared.md!}
 
 [Add domains using the Domain Queue &raquo;](domain-queue.md)
 
@@ -38,4 +33,5 @@ Domains can also be added one-by-one, which allows you to choose custom settings
 
 That's it, your domain has been added to DomainMOD!
 
-**NOTE:** If this is the first time you've added a domain with this TLD from this registrar, you will need to enter the fees associated with this registrar/TLD combination. If this is the case, after adding the domain you will be presented with a notice that will walk you through how to add the new fee.
+!!! note
+    If this is the first time you've added a domain from this registrar with this TLD you will need to enter the fees associated with this registrar/TLD combination. After adding the domain you will be presented with a notice that will walk you through how to add the new fee.

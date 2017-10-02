@@ -54,7 +54,8 @@ Add A Domain Registrar Account
 
 4. Choose the domain registrar and account owner that this registrar account belongs to, and enter the registrar account's username. (Optional) Fill in the other fields on the page.
 
-    **NOTE:** The registrar account password is currently stored in plain text in the database, and for security reasons we don't actually recommend saving it here, though we give you the option for your convenience.
+    !!! danger "Warning"
+        The registrar account password is stored in plain text in the database, and for security reasons we don't actually recommend saving it here, though we give you the option for your convenience.
 
 5. If you have access to this registrar's API you can fill in your API access information in the **API Credentials** section. 
 

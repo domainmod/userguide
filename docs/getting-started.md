@@ -56,9 +56,10 @@ DomainMOD includes a Task Scheduler that allows you to run various system jobs a
 
 The Task Scheduler is very powerful, and it enables features that you otherwise wouldn't be able to use, but in order for it to function you need to schedule the below cron job to run on your web server. Once the cron job is setup to run the Task Scheduler will be live.
 
-**NOTE:** This file should be executed every 10 minutes.
+Filename: /cron.php
 
-    Filename: /cron.php
+!!! note
+    This file should be executed every 10 minutes.
 
 Security
 --------
@@ -70,7 +71,8 @@ Although we've done our best to secure DomainMOD, unfortunately there are many f
 
 3. Do not store your account passwords or API keys in DomainMOD. Although the ability to save this information exists, **use it at your own risk**. This information is fairly secure if you run DomainMOD on your local computer, but there's a much higher risk of someone gaining access to it if you host the site on a server that is accessible to the outside world.
 
-    **WARNING:** Saving your API keys (and other relevant API connection information) in DomainMOD is necessary if you want to use the [Domain Queue](domain-queue.md), however we recommend that you only save this information temporarily while you're using the Domain Queue, and that you remove it as soon as you're done.
+    !!! danger "Warning"
+        Saving your API keys (and other relevant API connection information) in DomainMOD is necessary if you want to use the [Domain Queue](domain-queue.md), however we recommend that you only save this information temporarily while you're using the Domain Queue, and that you remove it as soon as you're done.
 
 4. Do not host DomainMOD on a public website or on an easy-to-guess URL.
 

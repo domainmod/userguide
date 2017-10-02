@@ -100,7 +100,8 @@ If that still doesn't do it go to Administration -> Maintenance, and then click 
 -------------
 If you're still having problems you can enable Debugging Mode, which will make DomainMOD start logging your actions and errors. This can help us troubleshoot your issue.
 
-**NOTE:** No sensitive information gets stored in the logs. Passwords, API keys, and other sensitive information is replaced with asterisks, so we will never be able to view your private data.
+!!! note
+    No sensitive information gets stored in the logs. Passwords, API keys, and other sensitive information is replaced with asterisks, so we will never be able to view your private data.
  
 To enable Debugging Mode:
 

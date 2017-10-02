@@ -2,7 +2,8 @@ DomainMOD has a Data Warehouse framework built right into it, which allows you t
 
 If your web server doesn't run WHM/cPanel, or you don't want to import your web server data into DomainMOD, you can ignore this section.
 
-**NOTE:** Importing your web server(s) into the Data Warehouse will not modify any of your other DomainMOD data, nor any of the data on your web server.
+!!! note
+    Importing your web server(s) into the Data Warehouse will not modify any of your other DomainMOD data, nor any of the data on your web server.
 
 Supported Data
 --------------
@@ -21,6 +22,9 @@ Setup
 -----
 In order to use the Data Warehouse you first need to add your web server(s).
 
+!!! note
+    When adding your server you will be asked for either an API Token or a Remote Access Key/Hash, which can be found in your WHM (see below). The Remote Access Key/Hash will be getting removed from WHM in version 68 though, so if your WHM already supports the API Token that's what you should use.
+
 **Adding A Web Server**
 
 1. Click on **Data Warehouse** on the main menu.
@@ -30,8 +34,6 @@ In order to use the Data Warehouse you first need to add your web server(s).
 3. Click the **Add Web Server** button.
 
 4. Enter your web server's details and then click the **Add Server** button.
-
-    **NOTE:** When adding your server you will be asked for either an API Token or a Remote Access Key/Hash, which can be found in your WHM (see below). The Remote Access Key/Hash will be getting removed from WHM in version 68 though, so if your WHM already supports the API Token that's what you should use.
 
 **Retrieving Your Remote Access Key/Hash**
 

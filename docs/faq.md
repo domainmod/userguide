@@ -1,8 +1,11 @@
 Installation
 -----------
-<h4>Do you support the MySQL extension in PHP, or just the MySQLi extension?</h4>
+<h4>Is the MySQL extension supported in PHP, or just the MySQLi extension?</h4>
 
-For security reasons DomainMOD only supports the MySQLi extension. If you're receiving messages that the MySQLi extension is unavailable, you will need to install and enable it on your server before you can use DomainMOD.
+For security reasons DomainMOD only supports the MySQLi extension. If you're receiving messages that the MySQLi extension is unavailable in PHP you will need to install and enable it on your server before you can use DomainMOD.
+
+!!! note
+    As of v4.07, DomainMOD uses the PDO extension instead of the MySQLi extension.
 
 
 <BR>Configuration
