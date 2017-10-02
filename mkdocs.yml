@@ -6,6 +6,10 @@ theme_dir: theme
 use_directory_urls: true
 strict: true
 repo_url: https://github.com/domainmod/userguide/
+markdown_extensions:
+  - admonition
+  - markdown_include.include:
+      base_path: docs/_includes
 pages:
 - Home: 'index.md'
 - Getting Started: 'getting-started.md'
