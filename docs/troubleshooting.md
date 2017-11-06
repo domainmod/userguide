@@ -1,6 +1,6 @@
 Installation
 -----------
-<h4>During installation the database tables are being created but some of the data isn't getting inserted.</h4>
+<a name="strictmode"></a><h4>I get a blank page and can't go any further OR I get an Error 500 OR The database tables are being created but some of the data isn't getting inserted.</h4>
 
 MySQL strict mode may be enabled on your server. In order for DomainMOD to install and run, strict mode must to be disabled.
 
@@ -95,6 +95,10 @@ In case there's a problem with the cron job you can also try triggering the queu
 If that doesn't work you can try clearing the queue items that are currently processing by going to Administration -> Maintenance, and then clicking on "Clear Queue Processing". Now try the last suggestion again to see if running the queue manually through the Task Scheduler helps.
 
 If that still doesn't do it go to Administration -> Maintenance, and then click on "Clear Queues". This will completely clear out the queue. Now try retrieving your data again using the Domain Queue.
+
+<h4>Form fields aren't displaying properly, such as checkboxes and text fields showing as empty boxes.</h4>
+
+This is caused by JavaScript being disabled in your web browser. If enabling JavaScript doesn't fix the issue try disabling any ad blockers or other content blockers you may have installed.
 
 <BR>Debugging
 -------------
