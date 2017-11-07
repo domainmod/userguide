@@ -56,7 +56,7 @@ Follow these steps to restore your copy of DomainMOD:
 
 <BR>Usage
 -------------
-<h4>DomainMOD seems to be working properly, but when I use the software I get a bunch of warning messages, such as "undefined index" and "undefined variable".</h4>
+<a name="errorlevel"></a><h4>DomainMOD seems to be working properly, but when I use the software I get a bunch of warning messages, such as "undefined index" and "undefined variable".</h4>
 
 This is related to the error reporting level that you have turned on in PHP. Although these are only warnings and won't actually be breaking anything, you can get rid of them by editing your php.ini file and changing the error_reporting line.
 
