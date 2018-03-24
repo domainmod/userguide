@@ -1,13 +1,13 @@
 {!domain-queue-shared.md!}
 
 Supported Registrars
-----------------------
+--------------------
 The following registrars are currently supported by the Domain Queue:
 
 Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
 
 Usage
--------
+-----
 
 !!! warning "Requirement"
     In order to use the Domain Queue you must first setup the [cron job](getting-started.md#cron-job) that comes with DomainMOD.

@@ -4,19 +4,19 @@ DomainMOD gives you a few options for adding your domains, so you should read th
     Before adding your domains to DomainMOD you must first create some Assets. If you've just finished installing you should visit the [First Run](first-run.md) section, which will walk you through creating the assets that are required to start using DomainMOD.
 
 Domain Queue
----------------
+------------
 {!domain-queue-shared.md!}
 
 [Add domains using the Domain Queue &raquo;](domain-queue.md)
 
 Bulk Updater
---------------  
+------------  
 The Bulk Updater also allows you to supply a list of domains to be added, however you need to manually choose the options for the domains you're adding, and all of the domains will have the same settings. The Bulk Updater generally works best if you're adding a list of newly registered domains, since they will have the same expiry date and will generally have the same settings.
 
 [Add domains using the Bulk Updater &raquo;](bulk-updater.md) 
 
 Manually
----------
+--------
 Domains can also be added one-by-one, which allows you to choose custom settings for each domain.
 
 **Adding A Domain Manually**

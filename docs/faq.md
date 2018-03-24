@@ -1,5 +1,5 @@
 Installation
------------
+------------
 <h4>Is the MySQL extension supported in PHP, or just the MySQLi extension?</h4>
 
 For security reasons DomainMOD only supports the MySQLi extension. If you're receiving messages that the MySQLi extension is unavailable in PHP you will need to install and enable it on your server before you can use DomainMOD.
@@ -9,7 +9,7 @@ For security reasons DomainMOD only supports the MySQLi extension. If you're rec
 
 
 <BR>Configuration
---------------------
+-----------------
 <h4>Can I import my domains into DomainMOD using a CSV file?</h4>
 
 Not currently, but this is something that we're investigating for the future. If your domain registrar has an API, and it's [supported by DomainMOD](domain-queue.md#supported-registrars), you can use the [Domain Queue](domain-queue.md) to automatically import your domains.
@@ -25,7 +25,7 @@ DomainMOD currently supports Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabu
 
 
 <BR>Usage
--------------
+---------
 <h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
 
 No, expiration dates currently need to be updated manually when the domains are renewed. Expiration dates can be updated one-by-one or by using the [Bulk Updater](bulk-updater.md).

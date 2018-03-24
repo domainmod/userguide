@@ -1,5 +1,5 @@
 Installation
------------
+------------
 <a name="strictmode"></a><h4>I get a blank page and can't go any further OR I get an Error 500 OR The database tables are being created but some of the data isn't getting inserted.</h4>
 
 MySQL strict mode may be enabled on your server. In order for DomainMOD to install and run, strict mode must to be disabled.
@@ -28,7 +28,7 @@ And if you've installed DomainMOD in the root folder of a domain or subdomain, t
 
 
 <BR>Upgrading
------------
+-------------
 <h4>There was a problem while upgrading and now I can't access DomainMOD.</h4>
 
 Although we personally haven't see this happen yet, it's definitely possible. This is why we recommend you make a backup of your entire DomainMOD database before upgrading (you did make that backup, right?).
@@ -55,7 +55,7 @@ Follow these steps to restore your copy of DomainMOD:
 
 
 <BR>Usage
--------------
+---------
 <a name="errorlevel"></a><h4>DomainMOD seems to be working properly, but when I use the software I get a bunch of warning messages, such as "undefined index" and "undefined variable".</h4>
 
 This is related to the error reporting level that you have turned on in PHP. Although these are only warnings and won't actually be breaking anything, you can get rid of them by editing your php.ini file and changing the error_reporting line.

@@ -4,17 +4,17 @@ Documentation: <https://domainmod.org/docs/>
 Source Code: <https://domainmod.org/source/>
 
 About
-------
+-----
 DomainMOD is an open source application written in PHP & MySQL used to manage your domains and other internet assets in a central location. DomainMOD also includes a Data Warehouse framework that allows you to import your web server data so that you can view, export, and report on your live data. Currently the Data Warehouse only supports web servers running WHM/cPanel.
 
 Live Demo
-----------
+---------
 Not sure if DomainMOD is what you're looking for? Don't want to take the time to install it only to find out that it's not? We hate when that happens ourselves, which is why we've setup a live demo so you don't waste your time.
 
 So go ahead, take the live demo for a test drive before you install: <https://demo.domainmod.org>
 
 Downloading
--------------
+-----------
 There are currently three options for downloading DomainMOD.
 
 **Option #1**  
@@ -33,7 +33,7 @@ To install DomainMOD simply open Softaculous, use the search feature to find Dom
 More Information: <http://www.softaculous.com/softaculous/apps/others/DomainMOD/>
 
 Installing
----------
+----------
 If you installed DomainMOD using Softaculous in the previous step you can ignore the rest of this *Installing* section, as you should already have DomainMOD up-and-running.
 
 If you downloaded the .ZIP file in the previous step, you will now need to upload the archive to your web server and then unpack it into the folder where you wish to install (or unpack it and then upload it, whichever you prefer).
@@ -51,7 +51,7 @@ If you used git to retrieve the source code in the previous step, just change to
 4. Setup the below cron job on your web server.
 
 Cron Job
----------
+--------
 DomainMOD includes a Task Scheduler that allows you to run various system jobs at specified times, which helps keep your DomainMOD installation up-to-date and running smoothly, as well as notifies you of important information, such as emailing you to let you know about upcoming Domain & SSL Certificate expirations.
 
 The Task Scheduler is very powerful, and it enables features that you otherwise wouldn't be able to use, but in order for it to function you need to schedule the below cron job to run on your web server. Once the cron job is setup to run the Task Scheduler will be live.

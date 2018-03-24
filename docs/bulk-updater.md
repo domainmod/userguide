@@ -1,7 +1,7 @@
 The Bulk Updater allows you add or modify multiple domains at the same time, whether it's a couple dozen or a couple thousand, all with a few clicks. Using the Bulk Updater is simple, it's just like adding or modifying a single domain, but instead of supplying one domain you supply a list of domains, and the Bulk Updater does the rest.
 
 Usage
--------
+-----
 For this example we're going to use the Bulk Updater to add domains, however it can also be used to renew domains, change the status of the domains, change the category and DNS profile of the domains, and so on.
 
 **Adding Domains Using The Bulk Updater**
