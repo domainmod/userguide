@@ -29,7 +29,7 @@ And if you've installed DomainMOD in the root folder of a domain or subdomain, t
 
 <BR>Upgrading
 -------------
-<h4>There was a problem while upgrading and now I can't access DomainMOD.</h4>
+<h4>There was an issue while upgrading and now I can't access DomainMOD.</h4>
 
 Although we personally haven't see this happen yet, it's definitely possible. This is why we recommend you make a backup of your entire DomainMOD database before upgrading (you did make that backup, right?).
 
@@ -90,7 +90,7 @@ We would recommend trying some of the suggestions for this error in Google and s
 
 <h4>I'm trying to import data using the Domain Queue, but everything is stuck on "Processing".</h4>
 
-In case there's a problem with the cron job you can also try triggering the queue manually. Go to Administration -> Task Scheduler, and then beside "Domain Queue Processing" click the "run now" link (this may take a bit of time to run). Then go back to the queue and see if anything has changed.
+In case there's an issue with the cron job you can also try triggering the queue manually. Go to Administration -> Task Scheduler, and then beside "Domain Queue Processing" click the "run now" link (this may take a bit of time to run). Then go back to the queue and see if anything has changed.
 
 If that doesn't work you can try clearing the queue items that are currently processing by going to Administration -> Maintenance, and then clicking on "Clear Queue Processing". Now try the last suggestion again to see if running the queue manually through the Task Scheduler helps.
 
@@ -102,10 +102,10 @@ This is caused by JavaScript being disabled in your web browser. If enabling Jav
 
 <BR>Debugging
 -------------
-If you're still having problems you can enable Debugging Mode, which will make DomainMOD start logging your actions and errors. This can help us troubleshoot your issue.
+If you're still having issues you can enable Debugging Mode, which will make DomainMOD start logging your actions and errors, which can help us troubleshoot your issue.
 
 !!! note
-    No sensitive information gets stored in the logs. Passwords, API keys, and other sensitive information is replaced with asterisks, so we will never be able to view your private data.
+    No sensitive information gets stored in the debugging log. Passwords, API keys, and other sensitive information is replaced with asterisks, so we will never be able to view your private data.
  
 To enable Debugging Mode:
 
@@ -115,7 +115,7 @@ To enable Debugging Mode:
 
 3. Click the **Update System Settings** button.
 
-Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered a problem. Once you've done this follow the steps below to report your issue.
+Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered the issue. Once you've done this continue with the below steps.
 
 1. If you haven't already, visit the DomainMOD support forum and post about your issue: [https://domainmod.org/forum/](https://domainmod.org/forum/)
 
@@ -123,8 +123,16 @@ Once debugging is enabled use DomainMOD as you normally would, repeating the ste
 
 3. Click the **Export** button to export the debugging log.
 
-4. Send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log file that you just exported, and also include a link to your forum post.
+In addition to the debugging log you should also retrieve your PHP error log, which will give us additional information about your issue.
 
-We will review your debugging log and get back to you as soon as we can!
+To find the location of your PHP error log:
+
+1. In DomainMOD, click on **Administration** and then **System Information**.
+
+2. Look for the heading named **PHP Error Log Location**. This will show you the location of the PHP error log on your web server.
+
+Once you have both your debugging log and PHP error log, send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your forum post so that we can determine the issue you're contacting us about.
+
+We will review your logs and get back to you as soon as we can!
 
 Also, if you haven't already, make sure you disable Debugging Mode.
