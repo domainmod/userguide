@@ -98,7 +98,7 @@ If that still doesn't do it go to Administration -> Maintenance, and then click 
 
 <h4>Form fields aren't displaying properly, such as checkboxes and text fields showing as empty boxes.</h4>
 
-This is caused by JavaScript being disabled in your web browser. If enabling JavaScript doesn't fix the issue try disabling any ad blockers or other content blockers you may have installed.
+This is usually caused by JavaScript being disabled in your web browser. If enabling JavaScript doesn't fix the issue try disabling any ad blockers or other content blockers you may have installed.
 
 <BR>Debugging
 -------------
@@ -131,7 +131,7 @@ To find the location of your PHP error log:
 
 2. Look for the heading named **PHP Error Log Location**. This will show you the location of the PHP error log on your web server.
 
-Once you have both your debugging log and PHP error log, send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your forum post so that we can determine the issue you're contacting us about.
+Once you have both your debugging log and PHP error log send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your forum post so that we can determine the issue you're contacting us about.
 
 We will review your logs and get back to you as soon as we can!
 
