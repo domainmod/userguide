@@ -96,7 +96,7 @@ If that doesn't work you can try clearing the queue items that are currently pro
 
 If that still doesn't do it go to Administration -> Maintenance, and then click on "Clear Queues". This will completely clear out the queue. Now try retrieving your data again using the Domain Queue.
 
-<h4>Form fields aren't displaying properly, such as checkboxes and text fields showing as empty boxes.</h4>
+<a name="javascript"></a><h4>Form fields aren't displaying properly, such as checkboxes and text fields showing as empty boxes.</h4>
 
 This is usually caused by JavaScript being disabled in your web browser. If enabling JavaScript doesn't fix the issue try disabling any ad blockers or other content blockers you may have installed.
 
