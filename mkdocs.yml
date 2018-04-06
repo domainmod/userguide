@@ -27,6 +27,6 @@ pages:
 - Data Warehouse: 'data-warehouse.md'
 - Frequently Asked Questions: 'faq.md'
 - Code of Conduct: 'conduct.md'
-- Contribute: 'contribute.md'
+#- Contribute: 'contribute.md'
 - Troubleshooting: 'troubleshooting.md'
 - Support: 'support.md'
