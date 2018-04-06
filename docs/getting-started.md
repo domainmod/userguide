@@ -80,6 +80,10 @@ Although we've done our best to secure DomainMOD, unfortunately there are many f
 
 6. Always use the most up-to-date version of DomainMOD. This will help protect you from any security vulnerability that are found and fixed.
 
+Code of Conduct
+---------------
+Please see the [Code of Conduct](conduct.md) page for a detailed explanation of our code of conduct.
+
 First Run
 ---------
 After you've installed DomainMOD you should go through the [First Run](first-run.md) section to finish getting the software ready to use.
