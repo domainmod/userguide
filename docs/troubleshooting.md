@@ -117,7 +117,7 @@ To enable Debugging Mode:
 
 Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered the issue. Once you've done this continue with the below steps.
 
-1. If you haven't already, visit the DomainMOD support forum and post about your issue: [https://domainmod.org/forum/](https://domainmod.org/forum/)
+1. If you haven't already, visit the DomainMOD [support forum](https://domainmod.org/forum/) or [issue tracker](https://domainmod.org/issues/) and post about your issue.
 
 2. In DomainMOD, click on **Administration** and then **Debug Log**.
 
@@ -131,7 +131,7 @@ To find the location of your PHP error log:
 
 2. Look for the heading named **PHP Error Log Location**. This will show you the location of the PHP error log on your web server.
 
-Once you have both your debugging log and PHP error log send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your forum post so that we can determine the issue you're contacting us about.
+Once you have both your debugging log and PHP error log send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your support forum post or issue tracker ticket so that we can determine the issue you're contacting us about.
 
 We will review your logs and get back to you as soon as we can!
 
