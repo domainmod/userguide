@@ -26,9 +26,9 @@ DomainMOD currently supports Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabu
 
 <BR>Usage
 ---------
-<h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
+<h4>How many domains can I manage with DomainMOD?</h4>
 
-No, expiration dates currently need to be updated manually when the domains are renewed. Expiration dates can be updated one-by-one or by using the [Bulk Updater](bulk-updater.md).
+Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable **large mode** to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advances features as the default settings, it allows you to manage a lot more domains.
 
 
 <h4>Can I use DomainMOD to sell domains?</h4>
@@ -36,11 +36,6 @@ No, expiration dates currently need to be updated manually when the domains are 
 The primary use for DomainMOD is to manage a large portfolio of domains, and it currently doesn't have any sales features, such as being able to host sales letter landing pages. This is something we're looking at implementing in a future version of DomainMOD.
 
 If all you want to do is track the amount you sold a domain for, you can create a Custom Field, which will allow you to record the sales amount for your domains.
-
-
-<h4>How many domains can I manage with DomainMOD?</h4>
-
-Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable **large mode** to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advances features as the default settings, it allows you to manage a lot more domains.
 
 
 <h4>I don't need to keep track of the fees associated with my domains. Can I disable this feature?</h4>
@@ -58,6 +53,20 @@ Although this is not a standard field, you can use [Custom Fields](administratio
 This is something we're still investigating, as we realize how helpful this feature would be for some people, however if it happens it's probably going to be a while still. Although on the surface it seems like it may be pretty easy to implement, there's actually quite a bit to it and it's going to take quite a bit of work.
 
 Also, since you can accomplish pretty much the same thing by exporting your domain list and sorting the exported data in something like excel (since it includes all of your custom fields), implementing this within the UI is not very high on the priority list.
+
+
+<h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
+
+No, expiration dates currently need to be updated manually when the domains are renewed. Expiration dates can be updated one-by-one or by using the [Bulk Updater](bulk-updater.md).
+
+
+<a name="registryapis"></a><h4>Do you plan to add API support for domain registries?</h4>
+
+For API imports we've been trying to focus on actual registrars, since unlike registries they cover more than just one (or a few) domain extensions, and actual registrars are what most domainers use, which is who DomainMOD is primarily for. There are always exceptions to this of course, but in general this is the case.
+
+Also, if we were to start adding API import support for registries this would open up a pretty big can of worms, since there are literally hundreds of registries that could be added. If we add one registrar we add support for all of the extensions that registrar has, whereas if we add support for a registry we only add support for a single extension (or in some cases a few extensions).
+
+So although registry support may happen at *some* point, it's not currently very high on the priority list.
 
 
 <h4>Is it possible to encrypt the data stored in DomainMOD?</h4>
