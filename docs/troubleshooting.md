@@ -134,7 +134,7 @@ To find the location of your PHP error log:
 
 2. Look for the heading named **PHP Error Log Location**. This will show you the location of the PHP error log on your web server.
 
-Once you have both your debugging log and PHP error log send an email to [debugging@domainmod.org](debugging@domainmod.org) and attach the log files. Please also include the URL to your support forum post or issue tracker ticket so that we can determine the issue you're contacting us about.
+Once you have both your debugging log and PHP error log send an email to <debugging@domainmod.org> and attach the log files. Please also include the URL to your support forum post or issue tracker ticket so that we can determine the issue you're contacting us about.
 
 We will review your logs and get back to you as soon as we can!
 
