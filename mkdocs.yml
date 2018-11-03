@@ -1,33 +1,35 @@
+strict: true
 site_name: DomainMOD User Guide
 site_description: View the DomainMOD User Guide online
 site_author: Greg Chetcuti
 repo_url: https://github.com/domainmod/userguide/
 use_directory_urls: true
-theme: 
+theme:
     name: null
     custom_dir: theme/
-strict: true
+    include_search_page: true
+    search_index_only: false
 markdown_extensions:
   - admonition
   - markdown_include.include:
       base_path: docs/_includes
 nav:
-    - Home: 'index.md'
-    - Getting Started: 'getting-started.md'
-    - First Run: 'first-run.md'
-    - Upgrading: 'upgrading.md'
-    - Creating Assets: 'creating-assets.md'
-    - Adding Domains: 'adding-domains.md'
-    - Domain Queue: 'domain-queue.md'
-    - Bulk Updater: 'bulk-updater.md'
-    #- Segments: 'segments.md'
-    #- Reporting: 'reporting.md'
-    #- User Settings: 'user-settings.md'
-    #- Maintenance: 'maintenance.md'
-    - Administration: 'administration.md'
-    - Data Warehouse: 'data-warehouse.md'
-    - Frequently Asked Questions: 'faq.md'
-    - Code of Conduct: 'conduct.md'
-    #- Contribute: 'contribute.md'
-    - Troubleshooting: 'troubleshooting.md'
-    - Support: 'support.md'
+  - Home: 'index.md'
+  - Getting Started: 'getting-started.md'
+  - First Run: 'first-run.md'
+  - Upgrading: 'upgrading.md'
+  - Creating Assets: 'creating-assets.md'
+  - Adding Domains: 'adding-domains.md'
+  - Domain Queue: 'domain-queue.md'
+  - Bulk Updater: 'bulk-updater.md'
+  #- Segments: 'segments.md'
+  #- Reporting: 'reporting.md'
+  #- User Settings: 'user-settings.md'
+  #- Maintenance: 'maintenance.md'
+  - Administration: 'administration.md'
+  - Data Warehouse: 'data-warehouse.md'
+  - Frequently Asked Questions: 'faq.md'
+  - Code of Conduct: 'conduct.md'
+  #- Contribute: 'contribute.md'
+  - Troubleshooting: 'troubleshooting.md'
+  - Support: 'support.md'
