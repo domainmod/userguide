@@ -15,6 +15,9 @@ For commonly asked questions please see the [FAQ](faq.md).
 **Code of Conduct**  
 Please see the [Code of Conduct](conduct.md) page for a detailed explanation of our code of conduct.
 
+**Contributing**  
+Please see the [Contributing](contributing.md) page for our contributing guidelines.
+
 **Troubleshooting**  
 If you're having problems with the installation or operation of DomainMOD, please see the [Troubleshooting](troubleshooting.md) section.
 

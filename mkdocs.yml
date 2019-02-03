@@ -30,6 +30,6 @@ nav:
   - Data Warehouse: 'data-warehouse.md'
   - Frequently Asked Questions: 'faq.md'
   - Code of Conduct: 'conduct.md'
-  #- Contribute: 'contribute.md'
+  - Contributing: 'contributing.md'
   - Troubleshooting: 'troubleshooting.md'
   - Support: 'support.md'
