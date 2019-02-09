@@ -15,7 +15,7 @@ To disable strict mode you need to remove STRICT\_TRANS\_TABLES from this line (
 Once disabled you will need to restart MySQL, and then DomainMOD should install properly.
 
 !!! note
-    As of v4.11, DomainMOD now tries to disable strict mode automatically during the database connection, but if you're still experiencing issues you should follow the steps above.
+    As of v4.11, DomainMOD will try to disable strict mode automatically during the database connection, but if you're still experiencing issues you should follow the steps above.
 
 <h4>The images and CSS are broken or you're receiving an error that there are too many redirects.</h4>
 
@@ -34,7 +34,7 @@ And if you've installed DomainMOD in the root folder of a domain or subdomain, t
 -------------
 <h4>There was an issue while upgrading and now I can't access DomainMOD.</h4>
 
-Although we personally haven't see this happen yet, it's definitely possible. This is why we recommend you make a backup of your entire DomainMOD database before upgrading (you did make that backup, right?).
+Although we personally haven't see this happen yet, it's definitely possible. This is why we recommend you backup your DomainMOD installation directory and database before upgrading (you did make that backup, right?).
 
 Follow these steps to restore your copy of DomainMOD:
 

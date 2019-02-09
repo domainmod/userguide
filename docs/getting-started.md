@@ -73,7 +73,7 @@ Although we've done our best to secure DomainMOD, unfortunately there are many f
 
 1. Do not use easy-to-guess passwords. **Ever**.
 
-2. Although DomainMOD has its own authentication system, we recommend that you also use HTTP authentication on your installation folder to add an extra layer of security.
+2. Although DomainMOD has its own authentication system, we recommend that you also use HTTP authentication on your installation directory to add an extra layer of security.
 
 3. Do not store your account passwords or API keys in DomainMOD. Although the ability to save this information exists, **use it at your own risk**. This information is fairly secure if you run DomainMOD on your local computer, but there's a much higher risk of someone gaining access to it if you host the site on a server that is accessible to the outside world.
 
