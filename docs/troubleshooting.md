@@ -103,6 +103,19 @@ If that still doesn't do it go to Administration -> Maintenance, and then click 
 
 This is usually caused by JavaScript being disabled in your web browser. If enabling JavaScript doesn't fix the issue try disabling any ad blockers or other content blockers you may have installed.
 
+<a name="currency"></a><h4>My fees are all showing up as 0  
+The currency conversions aren't working properly</h4>
+
+This is usually caused by a currency converter that's experiencing downtime. You can fix this by changing the currency conversion source.
+
+1. Click **Administration** on the main menu, then click **System Settings**.
+
+2. Click on the **Currency Converter** dropdown menu and choose a new source.
+
+3. Click the **Update System Settings** button. 
+
+After the Currency Converter source has been changed you can force a currency conversion update by going to *Maintenance -> Update Conversion Rates*.
+
 <BR>Debugging
 -------------
 If you're still having issues you can enable Debugging Mode, which will make DomainMOD start logging your actions and errors, which can help us troubleshoot your issue.
