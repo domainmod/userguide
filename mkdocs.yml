@@ -18,6 +18,7 @@ nav:
   - Getting Started: 'getting-started.md'
   - First Run: 'first-run.md'
   - Upgrading: 'upgrading.md'
+  - Migrating: 'migrating.md'
   - Creating Assets: 'creating-assets.md'
   - Adding Domains: 'adding-domains.md'
   - Domain Queue: 'domain-queue.md'
