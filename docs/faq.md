@@ -28,7 +28,7 @@ DomainMOD currently supports Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabu
 ---------
 <h4>How many domains can I manage with DomainMOD?</h4>
 
-Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable **large mode** to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advances features as the default settings, it allows you to manage a lot more domains.
+Theoretically there's no limit on the number of domains you can manage, it just depends on your server hardware and the settings chosen in DomainMOD. The default settings can handle thousands of domains, and over 10,000 depending on how much information you've chosen to display on the front page, but if things start slowing down you can enable **large mode** to speed things up. Large mode uses a different method for displaying the information on the main domain page, and although it doesn't offer as many of the advanced features as the default settings, it allows you to manage a lot more domains.
 
 
 <h4>Can I use DomainMOD to sell domains?</h4>
@@ -53,6 +53,9 @@ Although this is not a standard field, you can use [Custom Fields](administratio
 This is something we're still investigating, as we realize how helpful this feature would be for some people, however if it happens it's probably going to be a while still. Although on the surface it seems like it may be pretty easy to implement, there's actually quite a bit to it and it's going to take quite a bit of work.
 
 Also, since you can accomplish pretty much the same thing by exporting your domain list and sorting the exported data in something like excel (since it includes all of your custom fields), implementing this within the UI is not very high on the priority list.
+
+!!! note
+    As of v4.13, you can now display your Custom Fields on the main domain page.
 
 
 <h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
