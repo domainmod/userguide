@@ -4,7 +4,7 @@ Supported Registrars
 --------------------
 The following registrars are currently supported by the Domain Queue:
 
-Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
+Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub
 
 Usage
 -----
@@ -37,6 +37,10 @@ DreamHost does not currently allow the WHOIS privacy status of a domain to be re
 <h4>Freenom</h4>
 
 Freenom currently only gives API access to reseller accounts.
+
+<h4>Gandi</h4>
+
+Gandi does not currently allow the WHOIS privacy status of a domain to be retrieved via their API, so all domains added to the Domain Queue from a Gandi account will have their WHOIS privacy status set to No by default.
 
 <h4>GoDaddy</h4>
 
