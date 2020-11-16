@@ -24,9 +24,9 @@ To Backup your DomainMOD database:
 
 Restore
 ------
-    
+
 !!! danger "Warning"
-    Before restoring a backup file you should backup your existing data using the above **Backup** feature. This is in case something goes wrong with restoring the new database and you need to restore the old one.
+    Before restoring your DomainMOD database, ensure that you're restoring a database that is of the same version as the software that you're restoring it to. For example, if you were using DomainMOD v4.14 when you backed up your database, you must restore that database to an installation of DomainMOD v4.14.  
 To Restore your DomainMOD database:
 
 1. Login to DomainMOD as an administrator
