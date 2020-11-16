@@ -41,10 +41,11 @@ To Restore your DomainMOD database:
 
 Migrating
 ------
-The below steps walk you through how to migrate DomainMOD from one server to another.
 
 !!! danger "Warning"
     Before migrating it's **strongly** recommended that you backup your DomainMOD installation directory and database. If something goes wrong during the migration process there may be no way to recover your data, and having a backup of your installation directory and database will allow you to easily restore your data.
+
+The below steps walk you through how to migrate DomainMOD from one server to another.
  
 1. [Old Server] [Upgrade to the newest version of DomainMOD](https://domainmod.org/docs/userguide/upgrading/)
 
