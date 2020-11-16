@@ -12,7 +12,7 @@ This process backs up the data saved in your database. If you also want to save 
 
 Backup
 ------
-To Backup your DomainMOD database:
+To backup your DomainMOD database:
 
 1. Login to DomainMOD as an administrator
 
@@ -27,7 +27,7 @@ Restore
 
 !!! danger "Warning"
     Before restoring your DomainMOD database, ensure that you're restoring a database that is of the same version as the software that you're restoring it to. For example, if you were using DomainMOD v4.14 when you backed up your database, you must restore that database to an installation of DomainMOD v4.14.  
-To Restore your DomainMOD database:
+To restore your DomainMOD database:
 
 1. Login to DomainMOD as an administrator
 
@@ -45,7 +45,7 @@ Migrating
 !!! danger "Warning"
     Before migrating it's **strongly** recommended that you backup your DomainMOD installation directory and database. If something goes wrong during the migration process there may be no way to recover your data, and having a backup of your installation directory and database will allow you to easily restore your data.
 
-The below steps walk you through how to migrate DomainMOD from one server to another.
+To migrate your DomainMOD installation from one server to another:
  
 1. [Old Server] [Upgrade to the newest version of DomainMOD](https://domainmod.org/docs/userguide/upgrading/)
 
