@@ -5,7 +5,7 @@ Custom Fields help extend the functionality of DomainMOD by allowing the user to
 
 When you export your domain or SSL certificate data, the information contained in your custom fields will automatically be included in the exported data.
 
-**Custom Field Types:** Check Box, Date, Text Field, Text Area, Time Stamp
+**Custom Field Types:** Check Box, Date, Text Field, Text Area, Time Stamp, URL
 
 !!! note
     As of v4.13, DomainMOD has the ability to display your Custom Field data on the main Domain and SSL Certificate pages.
