@@ -2,6 +2,7 @@ strict: true
 site_name: DomainMOD User Guide
 site_description: View the DomainMOD User Guide online
 site_author: Greg Chetcuti
+site_url: https://domainmod.org/docs/userguide/
 repo_url: https://github.com/domainmod/userguide/
 use_directory_urls: true
 theme:
