@@ -5,7 +5,7 @@ DomainMOD gives you a few options for adding your domains, so you should read th
 
 Domain Queue
 ------------
-{!domain-queue-shared.md!}
+{!_domain-queue-shared.md!}
 
 [Add domains using the Domain Queue &raquo;](domain-queue.md)
 

@@ -1,4 +1,4 @@
-strict: true
+strict: false
 site_name: DomainMOD User Guide
 site_description: View the DomainMOD User Guide online
 site_author: Greg Chetcuti
@@ -13,12 +13,13 @@ theme:
 markdown_extensions:
   - admonition
   - markdown_include.include:
-      base_path: docs/_includes
+      base_path: docs
 nav:
   - Home: 'index.md'
   - Getting Started: 'getting-started.md'
   - First Run: 'first-run.md'
   - Upgrading: 'upgrading.md'
+  - Migrating: 'migrating.md'
   - Creating Assets: 'creating-assets.md'
   - Adding Domains: 'adding-domains.md'
   - Domain Queue: 'domain-queue.md'
