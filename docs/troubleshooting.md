@@ -175,3 +175,25 @@ Once you have both your debugging log and PHP error log send an email to <debugg
 We will review your logs and get back to you as soon as we can!
 
 Also, if you haven't already, make sure you disable Debugging Mode.
+
+<BR>Helper Programs
+-------------------
+If all else fails, DomainMOD has some "helper" programs that support can supply you with in order to help investigate or fix your issue. Helper programs are nothing more than simple scripts that can perform actions on your DomainMOD installation, whether it's performing an update on your database or setting a temporary variable.
+
+Although helpers are generally custom and specific to the user's issue, we wanted to include a generic helper publicly so that users could get a feel for what helpers are and what they do.
+
+In DomainMOD v4.18, we implemented strict [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) headers in order to help secure the application and reduce the risk of certain web-based attacks. We also enabled forced HTTPS, which ensures that your DomainMOD installation will **only** work if you've secured your web hosting with an SSL certificate.
+
+Although we highly recommend keeping the CSP headers enabled, as well as using an SSL certificate to secure your DomainMOD installation, we realize that some users may not always be able to have these features enabled. If you're one of those users, and you need to disable CSP and HTTPS, you could use the below helper to do so.
+
+You would simply create the file */helpers/top.php* and paste the below contents into it. That's all there is to it! The next time your visit your DomainMOD installation CSP and HTTPS will both be disabled.
+
+!!! danger "Warning"
+    If you're using a helper to investigate or fix something, and the helper is only intended to be used temporarily, don't forget to delete the helper file as soon as you're done using it!     
+
+````
+<?php
+// Contents of: /helpers/top.php
+$disable_csp = 1;
+$force_https = 0;
+````
