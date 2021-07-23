@@ -186,10 +186,7 @@ In DomainMOD v4.18, we implemented strict [Content Security Policy](https://deve
 
 Although we highly recommend keeping the CSP headers enabled, as well as using an SSL certificate to secure your DomainMOD installation, we realize that some users may not always be able to have these features enabled. If you're one of those users, and you need to disable CSP and HTTPS, you could use the below helper to do so.
 
-You would simply create the file */helpers/top.php* and paste the below contents into it. That's all there is to it! The next time your visit your DomainMOD installation CSP and HTTPS will both be disabled.
-
-!!! danger "Warning"
-    If you're using a helper to investigate or fix something, and the helper is only intended to be used temporarily, don't forget to delete the helper file as soon as you're done using it!     
+You would simply create the file */helpers/top.php* and paste the below contents into it. That's all there is to it! The next time your visit your DomainMOD installation CSP and forced HTTPS will both be disabled.
 
 ````
 <?php
@@ -197,3 +194,6 @@ You would simply create the file */helpers/top.php* and paste the below contents
 $disable_csp = 1;
 $force_https = 0;
 ````
+
+!!! danger "Warning"
+    If you're using a helper to investigate or fix something, and the helper is only intended to be used temporarily, don't forget to delete the helper file as soon as you're done using it!     
