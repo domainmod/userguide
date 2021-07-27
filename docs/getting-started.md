@@ -25,7 +25,7 @@ There are currently four options for downloading DomainMOD.
 
 **Option #1 -- Using Docker**
 
-Please see our official DomainMOD container on Docker Hub for more information: https://hub.docker.com/r/domainmod/domainmod
+Please see our official DomainMOD container on Docker Hub for more information: <https://hub.docker.com/r/domainmod/domainmod>
 
 **Option #2 -- Downloading a .zip file**  
 
