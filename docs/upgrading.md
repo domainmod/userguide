@@ -4,7 +4,7 @@
     The Backup & Restore instructions can be found [here](backup-restore.md).
 
 **Option #1**  
-If you installed DomainMOD by downloading the .ZIP file, visit the following URL to download the most up-to-date version: <https://domainmod.org/download/>
+If you installed DomainMOD by downloading the .zip file, visit the following URL to download the most up-to-date version: <https://domainmod.org/download/>
 
 Once the download completes, upload and unpack the new archive overtop of where you installed the previous version (or unpack it and then upload it, whichever you prefer).
 
