@@ -23,22 +23,23 @@ Downloading
 -----------
 There are currently four options for downloading DomainMOD.
 
-**Option #1**  
-Visit the following URL to download DomainMOD in a .ZIP file: <https://domainmod.org/download/>
+**Option #1 -- Using Docker**
 
-**Option #2**  
-Use git from your web server to download the DomainMOD source code. To do so, change to the directory where you want to install DomainMOD and run the following command (this download option requires that you have git installed on your web server):
+Please see our official DomainMOD container on Docker Hub for more information: https://hub.docker.com/r/domainmod/domainmod
+
+**Option #2 -- Downloading a .zip file**  
+
+Visit the following URL to download DomainMOD in a .zip file: <https://domainmod.org/download/>
+
+**Option #3 -- Using Git**  
+
+To download using Git, change to the directory where you want to install DomainMOD and run the following command (this download option requires that you have git installed on your server):
 
     git clone https://github.com/domainmod/domainmod.git
 
-**Option #3**  
-Use Docker from your web server to download and install DomainMOD. To do so, change to the directory where you want to store the Docker build files and DomainMOD database and run the following commands (this download/install option requires that you have git, Docker, and Docker Compose installed on your web server):
+**Option #4 -- Installing via Softaculous**  
 
-    git clone https://github.com/domainmod/docker.git .
-    docker-compose up -d
-
-**Option #4**  
-Use Softaculous from your web server to download and install DomainMOD.  Softaculous is the web hosting industry's leading software auto-installer, and it has helped millions of users install applications with a few clicks of a mouse. Softaculous easily integrates into the leading control panels like cPanel, Plesk, DirectAdmin, InterWorx, H-Sphere, and more. Check your hosting control panel or contact your web host if you're not sure if they offer Softaculous.
+Softaculous is the web hosting industry's leading software auto-installer, and it has helped millions of users install applications with a few clicks of a mouse. Softaculous easily integrates into the leading control panels like cPanel, Plesk, DirectAdmin, InterWorx, H-Sphere, and more. Check your hosting control panel or contact your web host if you're not sure if they offer Softaculous.
 
 To install DomainMOD simply open Softaculous, use the search feature to find DomainMOD, and then click the "Install Now" button. After you answer a few questions about your installation Softaculous will do the rest.
 
@@ -50,7 +51,7 @@ If you installed DomainMOD using Docker or Softaculous in the previous step you 
 
 If you downloaded the .ZIP file in the previous step, you will now need to upload the archive to your web server and then unpack it into the folder where you wish to install (or unpack it and then upload it, whichever you prefer).
 
-If you used git to retrieve the source code in the previous step, just change to the directory where you ran the git command and your files are already waiting for you in a folder called /domainmod/. Feel free to rename this folder to whatever you want.
+If you used Git to retrieve the source code in the previous step, just change to the directory where you ran the git command and your files are already waiting for you in a folder called /domainmod/. Feel free to rename this folder to whatever you want.
 
 **Installation Steps**
 
