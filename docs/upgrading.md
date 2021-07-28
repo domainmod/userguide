@@ -1,5 +1,5 @@
 !!! danger "Warning"
-    Before upgrading it's **strongly** recommended that you backup your DomainMOD installation directory and database. If something goes wrong during the upgrade there may be no way to recover your data, and having a backup of your installation directory and database will allow you to easily restore your previous version.
+    Before upgrading it's **strongly** recommended that you backup your DomainMOD installation directory and database. If something goes wrong during the upgrade there may be no way to recover your data, and having a backup of your installation directory and database will allow you to easily restore your previous version. 
     
     The Backup & Restore instructions can be found [here](backup-restore.md).
 
