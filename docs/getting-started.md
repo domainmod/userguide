@@ -67,7 +67,9 @@ Cron Job
 --------
 DomainMOD includes a Task Scheduler that allows you to run various system jobs at specified times, which helps keep your DomainMOD installation up-to-date and running smoothly, as well as notifies you of important information, such as emailing you to let you know about upcoming Domain & SSL Certificate expirations.
 
-The Task Scheduler is very powerful, and it enables features that you otherwise wouldn't be able to use, but in order for it to function you need to schedule the below cron job to run on your web server. Once the cron job is setup to run the Task Scheduler will be live.
+The Task Scheduler is very powerful, and it enables features that you otherwise wouldn't be able to use, but in order for it to function you need to schedule the below cron job to run on your web server. Once the cron job is setup to run, the Task Scheduler will be live.
+
+If you installed DomainMOD using Docker, the cron job will be setup and running automatically within the container, so there's nothing you need to setup manually.
 
 Filename: /cron.php
 
