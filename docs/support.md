@@ -1,10 +1,6 @@
-Forums
+Support Portal
 ------
-[https://groups.google.com/d/forum/domainmod](https://groups.google.com/d/forum/domainmod)
-
-Bug Reports
------------
-[https://github.com/domainmod/domainmod/issues](https://github.com/domainmod/domainmod/issues)
+[https://support.domainmod.org](https://support.domainmod.org)
 
 Stay Updated
 ------------
