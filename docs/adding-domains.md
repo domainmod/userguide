@@ -1,7 +1,13 @@
 DomainMOD gives you a few options for adding your domains, so you should read through the below sections to determine which will work best for you.
 
 !!! note
-    Before adding your domains to DomainMOD you must first create some Assets. If you've just finished installing you should visit the [First Run](first-run.md) section, which will walk you through creating the assets that are required to start using DomainMOD.
+    Before adding your domains to DomainMOD you must first create some Assets. If you've just finished installing you should visit the [First Run](first-run.md) section, which will walk you through creating the Assets that are required to start using DomainMOD. Alternatively, you can use the [CSV Importer](csv-importer.md) to import all of your domain data without having to create any Assets first.
+
+CSV Importer
+------------
+{!_csv-importer-shared.md!}
+
+[Add domains using the CSV Importer &raquo;](csv-importer.md)
 
 Domain Queue
 ------------

@@ -22,6 +22,7 @@ nav:
   - Migrating: 'migrating.md'
   - Creating Assets: 'creating-assets.md'
   - Adding Domains: 'adding-domains.md'
+  - CSV Importer: 'csv-importer.md'
   - Domain Queue: 'domain-queue.md'
   - Bulk Updater: 'bulk-updater.md'
   #- Segments: 'segments.md'
