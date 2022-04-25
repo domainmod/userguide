@@ -11,7 +11,7 @@ Regardless of how well testing has gone so far, we always recommended that you p
 Once logged into DomainMOD, click **Domains** in the main menu and then click on the **CSV Importer** button. You will then be walked through how to import your domain data using our CSV Import Template.
 
 # CSV Import Template
-[Click here](import-template-sample.csv) to download the sample CSV Import Template file.
+[Click here](https://domainmod.org/import-template-sample.csv) to download the sample CSV Import Template file.
 
 !!! danger "Warning"
     The columns in the CSV Import Template must remain as-is. If there are an incorrect number of columns, or the columns are not in the correct order, the CSV import will fail.
