@@ -14,9 +14,9 @@ Not sure if DomainMOD is what you're looking for? Don't want to take the time to
 So go ahead, take the live demo for a test drive before you install: <https://demo.domainmod.org>
 
 Requirements
-------------cd 
-**Software**: PHP v5.5+, MySQL  
-**PHP Extensions**: PDO (MySQL), cURL, OpenSSL, gettext  
+------------ 
+**Software**: PHP 8.1-8.2.9, MariaDB 10.4-11.1.2 or MySQL 5.7-8.1.0  
+**PHP Extensions**: PDO (MariaDB/MySQL), cURL, OpenSSL, gettext  
 **PHP Settings**: allow_url_fopen  
 
 Downloading
