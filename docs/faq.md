@@ -22,7 +22,7 @@ If you would like to help improve the translations, feel free to head over to ou
 
 <h4>Which domain registrar APIs does DomainMOD currently support?</h4>
 
-DomainMOD currently supports Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, and ResellerClub.
+DomainMOD currently supports Above.com, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, Porkbun, and ResellerClub.
 
 
 <BR>Usage

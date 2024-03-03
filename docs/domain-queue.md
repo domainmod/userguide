@@ -4,7 +4,7 @@ Supported Registrars
 --------------------
 The following registrars are currently supported by the Domain Queue:
 
-**Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, ResellerClub**
+**Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, Porkbun, ResellerClub**
 
 Usage
 -----
@@ -53,6 +53,10 @@ NameSilo's domains have 6 possible statuses: Active, Expired (grace period), Exp
 When retrieving your list of domains via the API, **Inactive** domains are not returned.
 
 When retrieving the details of a specific domain via the API, **Inactive** and **Expired (pending delete)** domains will not return any data.
+
+<h4>Porkbun</h4>
+
+When retrieving your list of domains from Porkbun, the current limit is 1,000 domains. If you have more than this you should export the full list of domains from Porkbun and paste it into the **Domains to add** field when adding domains via the Domain Queue.
 
 <h4>ResellerClub</h4>
 
