@@ -41,3 +41,5 @@ That's it, your domain has been added to DomainMOD!
 
 !!! note
     If this is the first time you've added a domain from this registrar with this TLD you will need to enter the fees associated with this registrar/TLD combination. After adding the domain you will be presented with a notice that will walk you through how to add the new fee.
+    
+    <strong>UPDATE:</strong> As of v4.23.0, if you don't care about keeping track of fees, you can now set all missing fees to 0 with the click of a button.
