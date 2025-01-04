@@ -16,7 +16,7 @@ Not currently, but this is something that we're investigating for the future. If
 
 <h4>Does DomainMOD support multiple languages?</h4>
 
-Yes! As of v4.16.0 DomainMOD supports Dutch, English (Canada), English (United States), French, German, Italian, Polish, Portuguese, Russian, and Spanish. If you speak one of these languages, you will probably be horrified at the quality of the current translations. This is because an automated translation service was used for this, but I hope the quality of the translations will improve greatly over time.
+Yes! As of v4.16.0 DomainMOD supports Arabic, Bengali, Chinese (Simplified), Chinese (Traditional), Dutch, English (CA), English (US), French, German, Hindi, Indonesian, Italian, Japanese, Korean, Marathi, Persian, Polish, Portuguese, Portuguese (BR), Russian, Spanish, Tamil, Telugu, Turkish, Urdu, and Vietnamese. If you speak one of these languages, you will probably be horrified at the quality of the current translations. This is because an automated translation service was used for this, but I hope the quality of the translations will improve greatly over time.
 
 If you would like to help improve the translations, feel free to head over to our [translations page on GitHub](https://github.com/domainmod/translations).
 
