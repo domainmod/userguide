@@ -5,6 +5,10 @@ site_author: Greg Chetcuti
 site_url: https://domainmod.org/docs/userguide/
 repo_url: https://github.com/domainmod/userguide/
 use_directory_urls: true
+# Include fragments (_*.md) are pulled into other pages by markdown-include,
+# so they aren't built as pages of their own.
+exclude_docs: |
+    _*.md
 theme:
     name: null
     custom_dir: theme/
