@@ -11,7 +11,8 @@ This repository contains the [Markdown](http://daringfireball.net/projects/markd
 
 Requirements
 ------------
-[MkDocs v1.0.4](https://www.mkdocs.org)  
+[MkDocs v1.6.1](https://www.mkdocs.org)  
+[markdown-include](https://github.com/cmacmackin/markdown-include)  
 
 License
 -------
