@@ -10,6 +10,8 @@ theme:
     custom_dir: theme/
     include_search_page: true
     search_index_only: false
+    static_templates:
+        - 404.html
 markdown_extensions:
   - admonition
   - markdown_include.include:

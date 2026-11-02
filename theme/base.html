@@ -109,7 +109,7 @@
       <div class="wy-nav-content">
 
         <span class="domainmod-logo">
-          <a href="https://domainmod.org"><img width="264" height="40" src="{{ base_url }}/img/logo.png" alt="DomainMOD"></a>
+          <a href="https://domainmod.org"><img width="264" height="40" src="{{ 'img/logo.png'|url }}" alt="DomainMOD"></a>
         </span>
 
         <div class="rst-content" style="padding-top: 23px;">
@@ -121,7 +121,7 @@
                 {% if page.is_homepage %}
                 <h1>User Guide</h1>
                 {% endif %}
-                {% if not page.is_homepage %}
+                {% if page and page.title and not page.is_homepage %}
                 <h1>{{ page.title }}</h1>
                 {% endif %}
 
