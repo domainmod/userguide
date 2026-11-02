@@ -14,8 +14,8 @@ keeps its own license, reproduced below.
       https://github.com/readthedocs/sphinx_rtd_theme
       Includes CSS from Font Awesome 4.1.0 - MIT License
 
-  js/jquery-2.1.1.min.js
-      jQuery 2.1.1 - MIT License
+  js/jquery-3.7.1.min.js
+      jQuery 3.7.1 - MIT License
       https://jquery.com
 
   js/modernizr-2.8.3.min.js
@@ -96,7 +96,7 @@ THE SOFTWARE.
 jQuery (MIT License)
 ================================================================================
 
-Copyright (c) 2005, 2014 jQuery Foundation, Inc. and other contributors
+Copyright OpenJS Foundation and other contributors, https://openjsf.org/
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
