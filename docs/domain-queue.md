@@ -61,3 +61,37 @@ When retrieving your list of domains from Porkbun, the current limit is 1,000 do
 <h4>ResellerClub</h4>
 
 ResellerClub does not allow users to retrieve a list of their domains via the API, nor do they return the Auto Renewal status when retrieving the details of a domain. All domains imported via the API will have their Auto Renewal status set to No by default.
+
+<a name="example"></a>Example
+-----
+Below is an example of how to use the Domain Queue to import the domains from a Namecheap account:
+
+Create a **Domain Registrar** asset, ensuring that you've selected **Namecheap** on the **API Support** dropdown list.
+
+[![Domain Registrar](img/domain-queue/domain_registrar.png)](img/domain-queue/domain_registrar.png)
+
+<BR>Create an **IP Address** asset, ensuring that you enter the public IP address of the server that DomainMOD is running on.
+
+[![IP Address](img/domain-queue/ip_address.png)](img/domain-queue/ip_address.png)
+
+<BR>Create a **Domain Registrar Account** asset, ensuring that you've entered your account username and API Key, and that you've selected the IP address that you created in the previous step.
+
+[![Domain Registrar Account](img/domain-queue/domain_registrar_account.png)](img/domain-queue/domain_registrar_account.png)
+
+<BR>On your Namecheap account, go to **Profile** -> **Tools** to view the status of your API access. Next, click on **Manage** to view your whitelisted IP addresses.
+
+[![API Access #1](img/domain-queue/api_access_1.png)](img/domain-queue/api_access_1.png)
+
+<BR>If your API Access was not enabled in the previous step, you can enable it here.
+
+To the right of the **Whitelisted IPs** section, click on **Edit** to view your whitelisted IP addresses.
+
+[![API Access #2](img/domain-queue/api_access_2.png)](img/domain-queue/api_access_2.png)
+
+<BR>On the **Whitelisted IPs** page, ensure that your public IP address is listed.
+
+[![Whitelisted](img/domain-queue/whitelisted_ips.png)](img/domain-queue/whitelisted_ips.png)
+
+And that's it, your Namecheap API connection should now be set up!
+
+With your API connection up and running, it's time to [import your domains using the Domain Queue](#usage).
