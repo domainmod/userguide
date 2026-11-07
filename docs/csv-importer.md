@@ -5,7 +5,7 @@ You can import as little or as much domain information as you want. Technically 
 Regardless of how well testing has gone so far, we always recommended that you perform a full backup of your existing DomainMOD database before attempting a CSV Import, just in case something goes wrong and you need to recover.
 
 !!! note
-    Before you can use the CSV Importer you must update the permissions on the /var/www/html/domainmod/temp folder ("***chmod 777 /var/www/html/domainmod/temp***"). If you're unsure how to do this your web hosting provider should be able to assist you.
+    CSV imports are refused if PHP's upload folder (upload_tmp_dir) is inside your web root. If you're unsure how to check this, your web hosting provider should be able to assist you.
 
 # Usage
 Once logged into DomainMOD, click **Domains** in the main menu and then click on the **CSV Importer** button. You will then be walked through how to import your domain data using our CSV Import Template.

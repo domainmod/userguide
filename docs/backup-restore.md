@@ -4,9 +4,7 @@ This process backs up the data saved in your database. If you also want to save 
 
 
 !!! note "Note"
-    Before you can use Backup & Restore you must update the permissions on the /var/www/html/domainmod/temp folder ("_chmod 777 /var/www/html/domainmod/temp_"). If you're unsure how to do this your web hosting provider should be able to assist you.
-    
-    The above path (/var/www/html/domainmod/temp) will need to be modified for your specific web server and DomainMOD installation location.
+    Backups are created in PHP's temporary folder, which must be outside your web root, and are deleted as soon as they've been sent to your browser. Restores are refused if PHP's upload folder (upload_tmp_dir) is inside your web root. If you're unsure how to check this, your web hosting provider should be able to assist you.
 
 
 

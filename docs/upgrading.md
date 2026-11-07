@@ -18,3 +18,6 @@ If you installed DomainMOD using Git right from your web server, just run the fo
 
 **Option #4 -- Softaculous Install**  
 If you installed DomainMOD using Softaculous you're just a few clicks away from upgrading to the newest version. Please see the upgrade instructions on the Softaculous Wiki: <https://www.softaculous.com/docs/How_to_upgrade_installations>
+
+!!! note "After Upgrading"
+    Unless you upgraded using Docker, restart PHP so the updated translation files are loaded (restart PHP-FPM if your server uses it, otherwise restart your web server). Otherwise some text may display incorrectly until it restarts. If you can't restart it yourself, your web hosting provider should be able to do it for you.
