@@ -26,6 +26,7 @@ nav:
   - First Run: 'first-run.md'
   - Upgrading: 'upgrading.md'
   - Migrating: 'migrating.md'
+  - Encrypted Database Connections: 'database-encryption.md'
   - Creating Assets: 'creating-assets.md'
   - Adding Domains: 'adding-domains.md'
   - CSV Importer: 'csv-importer.md'

@@ -4,7 +4,7 @@ Supported Registrars
 --------------------
 The following registrars are currently supported by the Domain Queue:
 
-**Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, Porkbun, ResellerClub**
+**Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Hostinger, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, Porkbun, ResellerClub**
 
 Usage
 -----
@@ -30,6 +30,14 @@ Usage
 -----
 This section contains various notes and things to watch out for when using the domain registrar APIs.
 
+<h4>Cloudflare</h4>
+
+A Cloudflare registrar account uses the following fields:
+
+**Username**: your Cloudflare account email address. This is required if you use a Global API Key. If you use an API Token it can be any name for the account.  
+**Account ID**: shown on your Cloudflare dashboard.  
+**API Key**: either an API Token (recommended) or your Global API Key. An API Token needs read access to Registrar domains, plus Zone Read access so that DomainMOD can retrieve the domains' name servers.
+
 <h4>DreamHost</h4>
 
 DreamHost does not currently allow the WHOIS privacy status of a domain to be retrieved via their API, so all domains added to the Domain Queue from a DreamHost account will have their WHOIS privacy status set to No by default.
@@ -40,11 +48,21 @@ Freenom currently only gives API access to reseller accounts.
 
 <h4>Gandi</h4>
 
+For the API Key, create a personal access token in your Gandi account with read access to your domains. Older Gandi API keys still work.
+
 Gandi does not currently allow the WHOIS privacy status of a domain to be retrieved via their API, so all domains added to the Domain Queue from a Gandi account will have their WHOIS privacy status set to No by default.
 
 <h4>GoDaddy</h4>
 
 When retrieving your list of domains from GoDaddy, the current limit is 1,000 domains. If you have more than this you should export the full list of domains from GoDaddy and paste it into the **Domains to add** field when adding domains via the Domain Queue.
+
+GoDaddy only gives API access to accounts it considers eligible, and has at times limited it to accounts with at least 10 domains or a Discount Domain Club membership. If GoDaddy refuses your account's API requests, domains added to the Domain Queue from it will stay at "Pending".
+
+<h4>Hostinger</h4>
+
+For the API Key, create an API token in your Hostinger dashboard (**Dev tools** -> **API** -> **API tokens**). Hostinger API tokens have full access to your Hostinger account, so consider giving the token an expiry date.
+
+Hostinger does not return the Auto Renewal status when retrieving the details of a domain, so all domains imported via the API will have their Auto Renewal status set to No by default.
 
 <h4>NameSilo</h4>
 
