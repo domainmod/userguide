@@ -109,6 +109,27 @@ I've setup the Data Warehouse within DomainMOD, but none of my changes propagate
 The Data Warehouse is read-only. You can import data from your web server into your Data Warehouse, but this data is for informational purposes only, and you can't edit your server data within DomainMOD and have it update your web server. This is something that will be worked on in the future, but is currently not possible.
 
 
+<a name="sslverify"></a><h4>
+After upgrading, I'm getting the error "Unable to verify the SSL certificate of a remote server"
+</h4>
+
+As of v4.24.02, DomainMOD checks the SSL certificate of every server it connects to, such as your registrars' APIs, your Data Warehouse servers, and the update check. This error means a server's certificate couldn't be verified, so DomainMOD didn't connect to it. The error names the service and includes the cURL error, which can help narrow down the cause.
+
+To fix it:
+
+1. Check that your server's date and time are correct. If the clock is wrong, valid certificates can look expired.
+
+2. Update your operating system's CA certificates (on most Linux systems this is the **ca-certificates** package).
+
+3. If `curl.cainfo`, `openssl.cafile`, or `openssl.capath` in your php.ini points to a file or folder that's missing or out of date, fix the path or remove the setting, then restart Apache/PHP.
+
+4. If your server connects to the internet through a proxy that inspects HTTPS traffic, add the proxy's CA certificate to your server's trusted certificates.
+
+If the error is for a Data Warehouse server with a self-signed certificate, the best fix is to give that server a valid certificate, or to add its certificate (or the CA that signed it) to your DomainMOD server's trusted CA certificates. As a last resort, if you connect to it over a network you trust, you can switch off **Verify SSL Certificate?** for that server only (see [Data Warehouse Setup](data-warehouse.md#setup)). With it off, DomainMOD can't tell whether it's talking to your real server, so anyone able to intercept the connection could see your WHM API Token or Remote Access Key.
+
+If you see "Unable to connect to a remote server" instead, DomainMOD couldn't reach the server, so check your server's network connection and firewall. "A remote server didn't respond in time" means the server took too long to connect or answer, so check that the remote service is up and that your server can reach it, then try again.
+
+
 <a name="dberr1045"></a><h4>
 I'm getting the error, "Database Connection Error: 1045"
 </h4>

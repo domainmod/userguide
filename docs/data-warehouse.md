@@ -35,6 +35,9 @@ In order to use the Data Warehouse you first need to add your web server(s).
 
 4. Enter your web server's details and then click the **Add Server** button.
 
+!!! note
+    The **Verify SSL Certificate?** setting is on by default, and was switched on for existing servers when you upgraded to v4.24.02. Leave it on unless your server uses a self-signed certificate and you connect over a network you trust. When it's on, the server's SSL certificate must be valid for the host name you entered. If your server's certificate can't be verified, see [Troubleshooting](troubleshooting.md#sslverify) before switching it off.
+
 **Retrieving Your Remote Access Key/Hash**
 
 If your WHM server supports it, you should be using an API Token instead of the Remote Access Key/Hash. Skip to the next section to retrieve your API Token.
