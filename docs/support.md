@@ -1,6 +1,22 @@
 Support Portal
 ------
+Questions, problems, and feature requests (including new registrar integrations) go in our Support Portal. Other users can vote on the requests that matter most to them, which helps us decide what to work on next.
+
 [https://support.domainmod.org](https://support.domainmod.org)
+
+The Support Portal also has a project Roadmap, built automatically from what users have submitted and where each item stands (Planned, In Progress, Completed, and so on), so you can see how development is progressing.
+
+[View the Project Roadmap](https://support.domainmod.org/roadmap)
+
+Bug Reports
+------
+If you're a developer and you've found a bug you can point to in the code, you can open an issue on GitHub instead. Please report each bug in one place only, not both.
+
+[Report a Bug on GitHub](https://github.com/domainmod/domainmod/issues/new/choose)
+
+Security Issues
+------
+Security vulnerabilities should never be reported publicly, so please follow our [security policy](https://github.com/domainmod/domainmod/security/policy) instead.
 
 Stay Updated
 ------------

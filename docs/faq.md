@@ -12,7 +12,7 @@ For security reasons DomainMOD only supports the MySQLi extension. If you're rec
 -----------------
 <h4>Can I import my domains into DomainMOD using a CSV file?</h4>
 
-Not currently, but this is something that we're investigating for the future. If your domain registrar has an API, and it's [supported by DomainMOD](domain-queue.md#supported-registrars), you can use the [Domain Queue](domain-queue.md) to automatically import your domains.
+Yes. As of v4.19, you can use the [CSV Importer](csv-importer.md) to import all of your domain data using a CSV template. You can also use the [Domain Queue](domain-queue.md) to import your domains automatically, either using your registrar's API (if it's [supported by DomainMOD](domain-queue.md#supported-registrars)) or by [adding them without an API](domain-queue.md#rdap).
 
 <h4>Does DomainMOD support multiple languages?</h4>
 
@@ -22,7 +22,9 @@ If you would like to help improve the translations, feel free to head over to ou
 
 <h4>Which domain registrar APIs does DomainMOD currently support?</h4>
 
-DomainMOD currently supports Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Hostinger, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, Porkbun, and ResellerClub.
+DomainMOD currently supports Above.com, Cloudflare, DNSimple, DreamHost, Dynadot, eNom, Fabulous, Freenom (Reseller Accounts Only), Gandi, GoDaddy, Hostinger, Internet.bs, Name.com, NameBright, Namecheap, NameSilo, OpenSRS, OVH, Porkbun, ResellerClub, and SiteHost.
+
+If your registrar isn't supported, you can still import your domains with the Domain Queue by [adding them without an API](domain-queue.md#rdap), which looks up their details using RDAP or WHOIS.
 
 
 <BR>Usage
@@ -59,9 +61,22 @@ Also, since you can accomplish pretty much the same thing by exporting your doma
     As of v4.13, you can now display your Custom Fields on the main domain page.
 
 
-<h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
+<a name="refresh"></a><h4>Are the domain expiration dates updated automatically using the domain's WHOIS information?</h4> 
 
-No, expiration dates currently need to be updated manually when the domains are renewed. Expiration dates can be updated one-by-one or by using the [Bulk Updater](bulk-updater.md).
+Not automatically, but as of v4.25.0 you can refresh a domain whenever you like. On the domain's edit page, click the **Refresh Domain** button, and DomainMOD will look up the domain's current details and update them straight away, listing what changed.
+
+If your registrar account uses a supported registrar API with its API details filled in, DomainMOD uses the API, which can update the expiry date, DNS servers, WHOIS privacy, and auto renewal status (some registrars' APIs don't report all of these, and anything not reported is left as it is). Otherwise, or if the API can't be used, DomainMOD uses public RDAP and WHOIS data instead, which only updates the expiry date and DNS servers.
+
+To avoid overloading your registrar and the RDAP and WHOIS servers, there's a short wait between refreshes. Read-only users don't see the Refresh Domain box.
+
+Expiration dates can also be updated one-by-one by editing the domain, or by using the [Bulk Updater](bulk-updater.md).
+
+
+<a name="idn"></a><h4>Does DomainMOD support internationalized domain names (IDNs)?</h4>
+
+Yes. As of v4.25.0, you can enter an internationalized domain name such as münchen.de in either its Unicode form or its punycode form (xn--mnchen-3ya.de), and DomainMOD stores it in its lowercase Unicode form, so searches match it whichever form you use. The one exception is a name with a character that the database can't store, such as an emoji, which is kept in punycode. This works everywhere you add domains, including the CSV Importer, the Bulk Updater, and the Domain Queue, and DomainMOD converts the domain back to punycode when it talks to registrar APIs and other servers.
+
+When you upgrade to v4.25.0, any domains you've already stored in punycode are converted to Unicode (apart from the exception above). If this leaves two domains with the same name (for example, münchen.de and xn--mnchen-3ya.de), both are kept so that you can decide which one to keep.
 
 
 <a name="registryapis"></a><h4>Do you plan to add API support for domain registries?</h4>

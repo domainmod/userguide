@@ -76,6 +76,14 @@ Filename: /cron.php
 !!! note
     This file should be executed every 10 minutes.
 
+<a name="task-scheduler-key"></a>**Task Scheduler Key (Optional)**
+
+By default, cron.php runs whenever its URL is opened, which is how many installations schedule it. As of v4.25.0, you can stop anyone else from running it by giving it a key. Add the following line to your config.inc.php file, replacing YourKeyHere with a long, random value:
+
+    $cron_key = 'YourKeyHere';
+
+Once a key is set, cron.php only runs from the command line (`php cron.php`) or from a URL that includes the key, such as `https://example.com/cron.php?key=YourKeyHere`, so update your cron job to match. If cron.php is opened without the right key, it displays "This script needs its key" and doesn't run any tasks.
+
 Security
 --------
 Although we've done our best to secure DomainMOD, unfortunately there are many factors that could cause security holes, such as the software being run on insecure hardware, software like PHP and MySQL having out-of-date versions with known vulnerabilities, easy-to-guess passwords being used, and so on. Due to these factors we recommend the following steps to help secure your DomainMOD installation.
@@ -91,7 +99,7 @@ Although we've done our best to secure DomainMOD, unfortunately there are many f
 5. Do not store your account passwords or API keys in DomainMOD. Although the ability to save this information exists, **use it at your own risk**. This information is fairly secure if you run DomainMOD on your local computer, but there's a much higher risk of someone gaining access to it if you host the site on a server that is accessible to the outside world.
 
     !!! danger "Warning"
-        Saving your API keys (and other relevant API connection information) in DomainMOD is necessary if you want to use the Domain Queue, however we recommend that you only save this information temporarily while you're using the Domain Queue, and that you remove it as soon as you're done.
+        Saving your API keys (and other relevant API connection information) in DomainMOD is necessary if you want to use the Domain Queue with your registrar's API, however we recommend that you only save this information temporarily while you're using the Domain Queue, and that you remove it as soon as you're done.
 
 6. Do not host DomainMOD on a public website or on an easy-to-guess URL.
 

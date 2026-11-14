@@ -80,7 +80,9 @@ Right now you probably have something that looks like this:
 
 But you should have something that looks like this:
 
-    error_reporting = E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED
+    error_reporting = E_ALL & ~E_NOTICE & ~E_DEPRECATED
+
+If your current line includes `~E_STRICT`, you can remove it. PHP 8 never raises E_STRICT, and PHP 8.4 deprecated the constant.
 
 Commented out in your php.ini file, above the error_reporting directive, there may be a suggested error reporting line for a "Production" environment. Try using that line instead of what you're using now, restart Apache/PHP, and that should get rid of the errors.
 
@@ -89,7 +91,7 @@ Commented out in your php.ini file, above the error_reporting directive, there m
 I'm trying to connect DomainMOD to my domain registrar account using the API so that I can import my domains, but everything in the Domain Queue just says "Pending"
 </h4> 
 
-In order to import your domains using the domain registrar's API you must setup the [cron job](getting-started.md#cron-job) that comes with DomainMOD. In addition to having the cron job running, you must also have your API credential saved along with your registrar account Asset.
+In order to import your domains using the domain registrar's API you must set up the [cron job](getting-started.md#cron-job) that comes with DomainMOD. In addition to having the cron job running, you must also have your API credential saved along with your registrar account Asset. (Domains you [add without an API](domain-queue.md#rdap) don't need any API credentials, but they still need the cron job.)
 
 
 <a name="processing"></a><h4>
@@ -158,7 +160,7 @@ This is usually caused by a currency converter that's experiencing downtime. You
 
 3. Click the **Update System Settings** button. 
 
-After the Currency Converter source has been changed you can force a currency conversion update by going to *Maintenance -> Update Conversion Rates*.
+After the Currency Converter source has been changed you can force a currency conversion update by going to *Administration -> Task Scheduler*, and then clicking the "run now" link beside "Update Conversion Rates".
 
 <BR>Debugging
 -------------
@@ -171,13 +173,13 @@ To enable Debugging Mode:
 
 1. Click **Administration** on the main menu, then click **System Settings**.
 
-2. Change the **Debugging Mode** option to **Enabled**.
+2. Turn on the **Debugging Mode** switch.
 
 3. Click the **Update System Settings** button.
 
 Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered the issue. Once you've done this continue with the below steps.
 
-1. If you haven't already, visit the DomainMOD [support forum](https://domainmod.org/forum/) or [issue tracker](https://domainmod.org/issues/) and post about your issue.
+1. If you haven't already, post about your issue in the [Support Portal](https://support.domainmod.org). If you're a developer and you've found a bug you can point to in the code, you can open an issue on [GitHub](https://github.com/domainmod/domainmod/issues) instead.
 
 2. In DomainMOD, click on **Administration** and then **Debug Log**.
 
@@ -191,7 +193,7 @@ To find the location of your PHP error log:
 
 2. Look for the heading named **PHP Error Log Location**. This will show you the location of the PHP error log on your web server.
 
-Once you have both your debugging log and PHP error log send an email to <debugging@domainmod.org> and attach the log files. Please also include the URL to your support forum post or issue tracker ticket so that we can determine the issue you're contacting us about.
+Once you have both your debugging log and PHP error log send an email to <debugging@domainmod.org> and attach the log files. Please also include the URL to your Support Portal post or GitHub issue so that we can determine the issue you're contacting us about.
 
 We will review your logs and get back to you as soon as we can!
 
