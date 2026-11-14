@@ -10,9 +10,13 @@ The Support Portal also has a project Roadmap, built automatically from what use
 
 Bug Reports
 ------
-If you're a developer and you've found a bug you can point to in the code, you can open an issue on GitHub instead. Please report each bug in one place only, not both.
+The Support Portal is the right place for any problem, bugs included. If you're a developer and can point to the code, you can submit a GitHub issue instead. Please report each bug in one place only, not both.
 
 [Report a Bug on GitHub](https://github.com/domainmod/domainmod/issues/new/choose)
+
+Pull Requests
+------
+Before submitting a pull request, please contact the maintainers of the repository to discuss the change. See [Contributing](contributing.md) for more details.
 
 Security Issues
 ------
