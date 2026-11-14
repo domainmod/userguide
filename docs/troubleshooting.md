@@ -179,7 +179,7 @@ To enable Debugging Mode:
 
 Once debugging is enabled use DomainMOD as you normally would, repeating the steps you took when you first encountered the issue. Once you've done this continue with the below steps.
 
-1. If you haven't already, post about your issue in the [Support Portal](https://support.domainmod.org). If you're a developer and you've found a bug you can point to in the code, you can open an issue on [GitHub](https://github.com/domainmod/domainmod/issues) instead.
+1. If you haven't already, post about your issue in the [Support Portal](https://support.domainmod.org). If you're a developer and can point to the code, you can submit a GitHub [issue](https://github.com/domainmod/domainmod/issues) instead.
 
 2. In DomainMOD, click on **Administration** and then **Debug Log**.
 

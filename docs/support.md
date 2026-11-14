@@ -24,9 +24,9 @@ Security vulnerabilities should never be reported publicly, so please follow our
 
 Stay Updated
 ------------
-Twitter: [https://twitter.com/DomainMOD](https://twitter.com/DomainMOD)  
+X: [https://x.com/DomainMOD](https://x.com/DomainMOD)  
 Facebook: [https://www.facebook.com/DomainMOD](https://www.facebook.com/DomainMOD)  
-LinkedIn: [http://lnked.in/DomainMOD](http://lnked.in/DomainMOD)  
+LinkedIn: [https://www.linkedin.com/company/domainmod](https://www.linkedin.com/company/domainmod)  
 Reddit: [https://www.reddit.com/r/DomainMOD](https://www.reddit.com/r/DomainMOD)  
 RSS: [Subscribe to our RSS feed](https://domainmod.org/rss/)  
 Email: [Subscribe to our mailing list](https://domainmod.org/subscribe/)  
